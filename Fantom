@@ -23,7 +23,7 @@ end if
 if not crypto then
 	crypto = include_lib(current_path+"/crypto.so")
 	if not crypto then
-		print("Please install metaxploit.so in /lib or in installation directory.")
+		print("Please install crypto.so in /lib or in installation directory.")
         print("Hacking commands have been disabled.")
 	end if
 end if
